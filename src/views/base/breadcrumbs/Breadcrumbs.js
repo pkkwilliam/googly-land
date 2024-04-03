@@ -20,17 +20,20 @@ const Breadcrumbs = () => {
             <strong>React Breadcrumb</strong>
           </CCardHeader>
           <CCardBody>
+            {/* <iframe src="https://app.arduino.cc/" style={{ width: '100%', height: '800px' }} /> */}
+            <iframe
+              src="https://trinket.io/embed/blocks/f8fb7405dd"
+              style={{ width: '100%', height: '800px' }}
+            ></iframe>
             <p className="text-body-secondary small">
               The breadcrumb navigation provides links back to each previous page the user navigated
               through and shows the current location in a website or an application. You don’t have
               to add separators, because they automatically added in CSS through{' '}
               <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before">
-                {' '}
                 <code>::before</code>
-              </a>{' '}
-              and{' '}
+              </a>
+              and
               <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/content">
-                {' '}
                 <code>content</code>
               </a>
               .
